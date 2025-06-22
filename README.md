@@ -42,7 +42,7 @@ It detects whether the input message expresses *positive* or *negative* sentimen
     ```bash
      http://127.0.0.1:5000
     ```
-    -- 
+    --- 
  ## Model & NLP Details
 
 - *Tokenizer*: NLTK word tokenizer  
@@ -50,7 +50,7 @@ It detects whether the input message expresses *positive* or *negative* sentimen
 - *Model*: Naive Bayes classifier (trained with cleaned tokens)  
 - *Libraries Used*:  
   - Flask, NLTK, joblib, re, etc.
-  -- 
+---  
 ## Links
 
 - - **LinkedIn:** []
