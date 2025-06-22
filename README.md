@@ -53,7 +53,8 @@ It detects whether the input message expresses *positive* or *negative* sentimen
 ---  
 ## Links
 
-- - **LinkedIn:** (!Click here)[https://www.linkedin.com/posts/o2204_sentimentanalysis-python-flask-activity-7342618126728998912-PBHC?utm_source=share&utm_medium=member_ios&rcm=ACoAAD3InlYBg47QtQUB-CFNvF5Qq3TB0NZRmZI]
+- - **LinkedIn:** [Click here](https://www.linkedin.com/posts/o2204_sentimentanalysis-python-flask-activity-7342618126728998912-PBHC?utm_source=share&utm_medium=member_ios&rcm=ACoAAD3InlYBg47QtQUB-CFNvF5Qq3TB0NZRmZI)
+
 - - **Kaggle:** [https://www.kaggle.com/code/omaratef200/sentimental-analysis]
 
 ---
