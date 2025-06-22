@@ -1,4 +1,4 @@
-# 😂😡 Sentiment Analysis Web App
+# Sentiment Analysis Web App
 
 A simple and clean Flask web application that performs *Sentiment Analysis* on user input.  
 It detects whether the input message expresses *positive* or *negative* sentiment using a trained machine learning model.
@@ -11,13 +11,13 @@ It detects whether the input message expresses *positive* or *negative* sentimen
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🧠 *Text preprocessing* (lemmatization, noise removal, stopword filtering)
-- 🤖 *Machine Learning* model (e.g., Naive Bayes or custom trained model)
-- 🌐 *Flask web interface* with form input
-- 🎬 Visual feedback with fun *GIFs/videos* for sentiment result
-- 🎨 Custom CSS styling in static/styles.css
+- *Text preprocessing* (lemmatization, noise removal, stopword filtering)
+- *Machine Learning* model (e.g., Naive Bayes or custom trained model)
+- *Flask web interface* with form input
+- Visual feedback with fun *GIFs/videos* for sentiment result
+- Custom CSS styling in static/styles.css
 
 ---
 
@@ -43,16 +43,19 @@ It detects whether the input message expresses *positive* or *negative* sentimen
     ```bash
      http://127.0.0.1:5000
     ```
-🧠 Model & NLP Details
-	•	Tokenizer: NLTK word tokenizer
-	•	Preprocessing: Lowercase, noise removal, lemmatization
-	•	Model: Naive Bayes classifier (trained with cleaned tokens)
-	•	Libraries Used:
-	•	Flask, NLTK, scikit-learn, joblib, re, etc.
+    -- 
+ ## Model & NLP Details
+
+• Tokenizer: NLTK word tokenizer  
+• Preprocessing: Lowercase, noise removal, lemmatization  
+• Model: Naive Bayes classifier (trained with cleaned tokens)  
+• Libraries Used:  
+  • Flask, NLTK, joblib, re, etc.
+  -- 
 ## Links
 
-- - **LinkedIn:** [https://www.linkedin.com/in/o2204]
-- - **Kaggle:** [https://www.kaggle.com/code/omaratef200/email-spam-or-ham-detection]
+- - **LinkedIn:** []
+- - **Kaggle:** [https://www.kaggle.com/code/omaratef200/sentimental-analysis]
 
 ---
 
