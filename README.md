@@ -46,11 +46,11 @@ It detects whether the input message expresses *positive* or *negative* sentimen
     -- 
  ## Model & NLP Details
 
-• Tokenizer: NLTK word tokenizer  
-• Preprocessing: Lowercase, noise removal, lemmatization  
-• Model: Naive Bayes classifier (trained with cleaned tokens)  
-• Libraries Used:  
-  • Flask, NLTK, joblib, re, etc.
+- *Tokenizer*: NLTK word tokenizer  
+- *Preprocessing*: Lowercase, noise removal, lemmatization  
+- *Model*: Naive Bayes classifier (trained with cleaned tokens)  
+# Libraries Used:  
+  - Flask, NLTK, joblib, re, etc.
   -- 
 ## Links
 
