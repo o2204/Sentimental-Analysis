@@ -1,2 +1,2 @@
 # Sentimental-Analysis
-Using NLP To Make Sentimental Analysis
+Using NLP To Make a Sentimental Analysis 

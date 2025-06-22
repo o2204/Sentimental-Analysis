@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Prediction Result</h1>
+
+        {% if prediction == 'Positive' %}
+            <h2 class="result Positive">✅ This message is POSITIVE</h2>
+            <video width="320" height="240" autoplay loop muted>
+                <source src="{{ url_for('static', filename='happy.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        {% elif prediction == 'Negative' %}
+            <h2 class="result Negative">❌ This message is NEGATIVE</h2>
+            <video width="320" height="240" autoplay loop muted>
+                <source src="{{ url_for('static', filename='angry.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        {% endif %}
+
+        <a class="back-btn" href="{{ url_for('home') }}">🔁 Check Another Message</a>
+    </div>
+
+    <!-- Footer -->
+    <div class='footer'>
+        <div class="contact">
+            <a target="_blank" href="https://github.com/o2204"><i class="fab fa-github fa-lg contact-icon"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/o2204"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+        </div>
+        <p class='footer-description'>© Omar Atef 2025</p>
+    </div>
+</body>
+</html>
