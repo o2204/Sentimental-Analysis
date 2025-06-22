@@ -1,19 +1,19 @@
-# Sentimental Analysis
+# 😂😡 Sentimental Analysis Web App
 
-
-This project demonstrates how to classify emails as **Spam** or **Ham (Not Spam)** using machine learning techniques in Python.
+A web application built with Flask that analyzes the sentiment of your input text — is it Positive or Negative?
 
 ---
 
-## Project Overview
+## 🎥 Demo
 
-The goal of this project is to build and deploy a machine learning model that can detect whether an email is spam or not, based on its content. The solution includes:
+![Sentiment Analysis Demo](assets/demo.gif)
 
-- Text preprocessing using **NLTK** and **regex**
-- Feature extraction with **TF-IDF**
-- Training classification models (e.g., **SVM**, **Naive Bayes**)
-- Saving the model and vectorizer
-- Deploying a web app using **Flask**
+---
+
+## 📌 Features
+- Predict sentiment: Positive or Negative
+- Clean Flask interface
+- Animated feedback with videos
 
 ---
 
