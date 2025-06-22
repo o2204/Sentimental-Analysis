@@ -2,11 +2,7 @@
 
 A web application built with Flask that analyzes the sentiment of your input text — is it Positive or Negative?
 
----
-
-## 🎥 Demo
-
-![Sentiment Analysis Demo](assets/demo.gif)
+  ![Sentiment Analysis Demo](assets/demo.gif)
 
 ---
 
