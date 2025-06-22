@@ -3,7 +3,6 @@
 A simple and clean Flask web application that performs *Sentiment Analysis* on user input.  
 It detects whether the input message expresses *positive* or *negative* sentiment using a trained machine learning model.
 
----
 
 <p align="center">
   <img src="assets/demo.gif" alt="Sentiment Analysis Demo" width="600"/>
@@ -21,7 +20,7 @@ It detects whether the input message expresses *positive* or *negative* sentimen
 
 ---
 
-## 🛠 How to Run the App
+## How to Run the App
 
 1. *Clone the repo*:
    ```bash
@@ -49,7 +48,7 @@ It detects whether the input message expresses *positive* or *negative* sentimen
 - *Tokenizer*: NLTK word tokenizer  
 - *Preprocessing*: Lowercase, noise removal, lemmatization  
 - *Model*: Naive Bayes classifier (trained with cleaned tokens)  
-# Libraries Used:  
+- *Libraries Used*:  
   - Flask, NLTK, joblib, re, etc.
   -- 
 ## Links
