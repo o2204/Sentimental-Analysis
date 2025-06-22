@@ -1,6 +1,9 @@
-# 😂😡 Sentimental Analysis Web App
+# 😂😡 Sentiment Analysis Web App
 
-A web application built with Flask that analyzes the sentiment of your input text — is it Positive or Negative?
+A simple and clean Flask web application that performs *Sentiment Analysis* on user input.  
+It detects whether the input message expresses *positive* or *negative* sentiment using a trained machine learning model.
+
+---
 
 <p align="center">
   <img src="assets/demo.gif" alt="Sentiment Analysis Demo" width="600"/>
@@ -8,44 +11,44 @@ A web application built with Flask that analyzes the sentiment of your input tex
 
 ---
 
-## 📌 Features
-- Predict sentiment: Positive or Negative
-- Clean Flask interface
-- Animated feedback with videos
+## 🚀 Features
+
+- 🧠 *Text preprocessing* (lemmatization, noise removal, stopword filtering)
+- 🤖 *Machine Learning* model (e.g., Naive Bayes or custom trained model)
+- 🌐 *Flask web interface* with form input
+- 🎬 Visual feedback with fun *GIFs/videos* for sentiment result
+- 🎨 Custom CSS styling in static/styles.css
 
 ---
 
-## Project Workflow
+## 🛠 How to Run the App
 
-### 🔹 Data Cleaning
-- Remove URLs, punctuation, special characters  
-- Convert to lowercase  
-- Remove stopwords  
-- Lemmatize words
-
-### 🔹 Feature Extraction
-- Tokenize text  
-- Apply **TF-IDF** vectorization
-
-### 🔹 Model Training
-- Train classifiers (e.g., **SVC**)  
-- Evaluate using accuracy
-
-### 🔹 Model Saving
-- Save model & vectorizer using `joblib`
-
-### 🔹 Deployment
-- Build a simple Flask web app for real-time prediction
-
----
-
-## Requirements
-
-Install dependencies using:
-
-```bash
-pip install -r requirements.txt         
-```
+1. *Clone the repo*:
+   ```bash
+   git clone https://github.com/o2204/Sentimental-Analysis.git
+   ```
+2.	*Create a virtual environment (optional but recommended)*:
+    ```bash
+     python -m venv venv
+    ```
+3. *Install dependencies*:
+   ```bash
+     python -m venv venv
+   ```
+4. *Run the app*:
+   ```bash
+     python app.py
+   ```
+5. *Open in browser*:
+    ```bash
+     http://127.0.0.1:5000
+    ```
+🧠 Model & NLP Details
+	•	Tokenizer: NLTK word tokenizer
+	•	Preprocessing: Lowercase, noise removal, lemmatization
+	•	Model: Naive Bayes classifier (trained with cleaned tokens)
+	•	Libraries Used:
+	•	Flask, NLTK, scikit-learn, joblib, re, etc.
 ## Links
 
 - - **LinkedIn:** [https://www.linkedin.com/in/o2204]
